@@ -4,7 +4,6 @@ let wins = 0;
 let losses = 0;
 let a = 0;
 
-// 1. Istifadeci Tapacagi Reqem.Random Cixmalidir.
 
 function istifadecirandom2() {
   const random = Math.floor(Math.random() * 100) + 1;
@@ -13,7 +12,6 @@ function istifadecirandom2() {
 }
 istifadecirandom2();
 
-// 2. buttona basanda random reqemler cixsin
 
 $(".cristal").on("click", function () {
   const btnrandom = Math.floor(Math.random() * 10) + 1;
